@@ -3142,7 +3142,8 @@ ul {
 @media (max-width: 576px) {
   /* line 32, E:/169 Deen's Dairies/169 Deen's Dairies/169_Deen's_Dairies_html/sass/_intro_video_bg.scss */
   .intro_video_bg h2 {
-    font-size: 15px;
+    font-size: 18px;
+	  padding-bottom: 20px;
   }
 }
 
@@ -3163,21 +3164,21 @@ ul {
 
 @media (max-width: 576px) {
   /* line 32, E:/169 Deen's Dairies/169 Deen's Dairies/169_Deen's_Dairies_html/sass/_intro_video_bg.scss */
-  .intro_video_bg.intro_video_iner p {
-    font-size: 8px;
+  .intro_video_bg p {
+    font-size: 5px;
   }
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
   /* line 32, E:/169 Deen's Dairies/169 Deen's Dairies/169_Deen's_Dairies_html/sass/_intro_video_bg.scss */
-  .intro_video_bg.intro_video_iner p {
+  .intro_video_bg p {
     font-size: 15px;
   }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   /* line 32, E:/169 Deen's Dairies/169 Deen's Dairies/169_Deen's_Dairies_html/sass/_intro_video_bg.scss */
-  .intro_video_bg.intro_video_iner p {
+  .intro_video_bg p {
     font-size: 15px;
   }
 }
