@@ -63,7 +63,7 @@ input:hover, input:focus {
 @media (max-width: 576px) {
   /* line 26, E:/169 Deen's Dairies/169 Deen's Dairies/169_Deen's_Dairies_html/sass/_common.scss */
   .section_padding {
-    padding: 30px 0px;
+    padding: 25px 0px;
   }
 }
 
@@ -5042,11 +5042,11 @@ h6 {
    background-image: url(../img/Quote.png);
 }
 
-@media (max-width: 600px) {
+@media (max-width: 576px) {
   /* line 3, E:/169 Deen's Dairies/169 Deen's Dairies/169_Deen's_Dairies_html/sass/_review.scss */
  .review_part{
    background-image: url(../img/Quote.png);
-   height: 650px; 
+   height: 600px; 
 }
 }
 
