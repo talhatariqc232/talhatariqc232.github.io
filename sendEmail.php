@@ -11,7 +11,7 @@
         require_once "PHPMailer/SMTP.php";
         require_once "PHPMailer/Exception.php";
 
-        $mail = new PHPMailer(true);
+        $mail = new PHPMailer();
 
         //SMTP Settings
         $mail->isSMTP();
@@ -19,7 +19,7 @@
         $mail->SMTPAuth = true;
         $mail->Username = "amjadu234@gmail.com"; //enter you email address
         $mail->Password = 'siddique'; //enter you email password
-        $mail->Port = 465;
+        $mail->Port = 25;
         $mail->SMTPSecure = "ssl";
 
         //Email Settings
