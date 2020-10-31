@@ -41,6 +41,9 @@
             $status = "failed";
             $response = "Something is wrong: <br><br>" . $mail->ErrorInfo;
         }
+        ini_set('display_errors', 1);
+        ini_set('display_startup_errors', 1);
+        error_reporting(E_ALL);
 
         exit(json_encode(array("status" => $status, "response" => $response)));
     }
