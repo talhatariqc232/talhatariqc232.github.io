@@ -1,5 +1,5 @@
 <?php
-    echo "hi"; 
+    
     use PHPMailer\PHPMailer\Exception;
     use PHPMailer\PHPMailer\PHPMailer;
 
