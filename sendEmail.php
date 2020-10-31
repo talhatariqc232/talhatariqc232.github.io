@@ -2,9 +2,7 @@
     use PHPMailer\PHPMailer\Exception;
     use PHPMailer\PHPMailer\PHPMailer;
 
-    ini_set('display_errors', 1);
-    ini_set('display_startup_errors', 1);
-    error_reporting(E_ALL);
+    
 
     if (isset($_POST['name']) && isset($_POST['email'])) {
         $name = $_POST['name'];
@@ -24,8 +22,8 @@
         $mail->SMTPAuth = true;
         $mail->Username = "amjadu234@gmail.com"; //enter you email address
         $mail->Password = 'siddique'; //enter you email password
-        $mail->Port = 465;
-        $mail->SMTPSecure = "ssl";
+        $mail->Port = 587;
+        $mail->SMTPSecure = "tls";
 
         //Email Settings
         $mail->isHTML(true);
@@ -41,9 +39,6 @@
             $status = "failed";
             $response = "Something is wrong: <br><br>" . $mail->ErrorInfo;
         }
-        ini_set('display_errors', 1);
-        ini_set('display_startup_errors', 1);
-        error_reporting(E_ALL);
 
         exit(json_encode(array("status" => $status, "response" => $response)));
     }
