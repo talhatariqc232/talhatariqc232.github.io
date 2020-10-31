@@ -1,4 +1,5 @@
 <?php
+    echo "hi"; 
     use PHPMailer\PHPMailer\Exception;
     use PHPMailer\PHPMailer\PHPMailer;
 
@@ -22,8 +23,8 @@
         $mail->SMTPAuth = true;
         $mail->Username = "amjadu234@gmail.com"; //enter you email address
         $mail->Password = 'siddique'; //enter you email password
-        $mail->Port = 587;
-        $mail->SMTPSecure = "tls";
+        $mail->Port = 465;
+        $mail->SMTPSecure = "ssl";
 
         //Email Settings
         $mail->isHTML(true);
