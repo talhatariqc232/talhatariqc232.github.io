@@ -19,7 +19,6 @@
 
         //SMTP Settings
         $mail->isSMTP();
-        $mail->SMTPDebug = 1;
         $mail->Host = "smtp.gmail.com";
         $mail->SMTPAuth = true;
         $mail->Username = "amjadu234@gmail.com"; //enter you email address
