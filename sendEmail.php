@@ -1,5 +1,6 @@
 <?php
     
+    die('gdhfgfs'); 
     use PHPMailer\PHPMailer\Exception;
     use PHPMailer\PHPMailer\PHPMailer;
 
