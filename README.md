@@ -1,4 +1,4 @@
-# Website for the **Deen's Dairies** product line
+# Dean's Dairies
 This repository contains the code for the Deen's Dairies website.
 
 ## Technologies
